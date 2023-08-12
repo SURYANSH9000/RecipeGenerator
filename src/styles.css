@@ -1,0 +1,77 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 80px;
+  text-align: center; 
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.app h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.app form {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.app input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%; 
+  font-size: 16px;
+}
+
+.app button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-height: 600px; 
+  overflow-y: scroll; 
+}
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  max-height: 100%; 
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+.return-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

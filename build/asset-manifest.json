@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RecipeGenerator/static/css/main.46c38833.css",
+    "main.js": "/RecipeGenerator/static/js/main.247188f0.js",
+    "static/media/a.png": "/RecipeGenerator/static/media/a.4a14fadf24b47c578d4f.png",
+    "static/media/bg.png": "/RecipeGenerator/static/media/bg.63c5d405d33be88adc49.png",
+    "index.html": "/RecipeGenerator/index.html",
+    "main.46c38833.css.map": "/RecipeGenerator/static/css/main.46c38833.css.map",
+    "main.247188f0.js.map": "/RecipeGenerator/static/js/main.247188f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46c38833.css",
+    "static/js/main.247188f0.js"
+  ]
+}
